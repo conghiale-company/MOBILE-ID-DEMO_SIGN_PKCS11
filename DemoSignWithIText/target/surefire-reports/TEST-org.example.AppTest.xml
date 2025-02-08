@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="org.example.AppTest" time="0.049" tests="1" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="D:\Data\MOBILE_ID\DemoSignWithIText\DemoSignWithIText\target\test-classes;D:\Data\MOBILE_ID\DemoSignWithIText\DemoSignWithIText\target\classes;C:\Users\Bin77\.m2\repository\junit\junit\3.8.1\junit-3.8.1.jar;C:\Users\Bin77\.m2\repository\org\xipki\iaik\sunpkcs11-wrapper\1.4.1\sunpkcs11-wrapper-1.4.1.jar;C:\Users\Bin77\.m2\repository\org\xipki\iaik\pkcs11-constants\1.4.1\pkcs11-constants-1.4.1.jar;C:\Users\Bin77\.m2\repository\org\bouncycastle\bcprov-jdk15on\1.59\bcprov-jdk15on-1.59.jar;C:\Users\Bin77\.m2\repository\org\bouncycastle\bcpkix-jdk15on\1.59\bcpkix-jdk15on-1.59.jar;C:\Users\Bin77\.m2\repository\com\itextpdf\kernel\7.0.2\kernel-7.0.2.jar;C:\Users\Bin77\.m2\repository\com\itextpdf\io\7.0.2\io-7.0.2.jar;C:\Users\Bin77\.m2\repository\com\itextpdf\layout\7.0.2\layout-7.0.2.jar;C:\Users\Bin77\.m2\repository\com\itextpdf\forms\7.0.2\forms-7.0.2.jar;C:\Users\Bin77\.m2\repository\com\itextpdf\pdfa\7.0.2\pdfa-7.0.2.jar;C:\Users\Bin77\.m2\repository\com\itextpdf\sign\7.0.2\sign-7.0.2.jar;C:\Users\Bin77\.m2\repository\com\itextpdf\barcodes\7.0.2\barcodes-7.0.2.jar;C:\Users\Bin77\.m2\repository\com\itextpdf\font-asian\7.0.2\font-asian-7.0.2.jar;C:\Users\Bin77\.m2\repository\com\itextpdf\hyph\7.0.2\hyph-7.0.2.jar;C:\Users\Bin77\.m2\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;C:\Users\Bin77\.m2\repository\org\slf4j\slf4j-simple\1.6.2\slf4j-simple-1.6.2.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Bangkok"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="D:\App\Java\JDK_1.8\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\Bin77\AppData\Local\Temp\surefire2182060954440777753\surefirebooter-20240424094656763_3.jar C:\Users\Bin77\AppData\Local\Temp\surefire2182060954440777753 2024-04-24T09-46-55_149-jvmRun1 surefire-20240424094656763_1tmp surefire_0-20240424094656763_2tmp"/>
+    <property name="surefire.test.class.path" value="D:\Data\MOBILE_ID\DemoSignWithIText\DemoSignWithIText\target\test-classes;D:\Data\MOBILE_ID\DemoSignWithIText\DemoSignWithIText\target\classes;C:\Users\Bin77\.m2\repository\junit\junit\3.8.1\junit-3.8.1.jar;C:\Users\Bin77\.m2\repository\org\xipki\iaik\sunpkcs11-wrapper\1.4.1\sunpkcs11-wrapper-1.4.1.jar;C:\Users\Bin77\.m2\repository\org\xipki\iaik\pkcs11-constants\1.4.1\pkcs11-constants-1.4.1.jar;C:\Users\Bin77\.m2\repository\org\bouncycastle\bcprov-jdk15on\1.59\bcprov-jdk15on-1.59.jar;C:\Users\Bin77\.m2\repository\org\bouncycastle\bcpkix-jdk15on\1.59\bcpkix-jdk15on-1.59.jar;C:\Users\Bin77\.m2\repository\com\itextpdf\kernel\7.0.2\kernel-7.0.2.jar;C:\Users\Bin77\.m2\repository\com\itextpdf\io\7.0.2\io-7.0.2.jar;C:\Users\Bin77\.m2\repository\com\itextpdf\layout\7.0.2\layout-7.0.2.jar;C:\Users\Bin77\.m2\repository\com\itextpdf\forms\7.0.2\forms-7.0.2.jar;C:\Users\Bin77\.m2\repository\com\itextpdf\pdfa\7.0.2\pdfa-7.0.2.jar;C:\Users\Bin77\.m2\repository\com\itextpdf\sign\7.0.2\sign-7.0.2.jar;C:\Users\Bin77\.m2\repository\com\itextpdf\barcodes\7.0.2\barcodes-7.0.2.jar;C:\Users\Bin77\.m2\repository\com\itextpdf\font-asian\7.0.2\font-asian-7.0.2.jar;C:\Users\Bin77\.m2\repository\com\itextpdf\hyph\7.0.2\hyph-7.0.2.jar;C:\Users\Bin77\.m2\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;C:\Users\Bin77\.m2\repository\org\slf4j\slf4j-simple\1.6.2\slf4j-simple-1.6.2.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Bin77"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="D:\App\Java\JDK_1.8\jre"/>
+    <property name="basedir" value="D:\Data\MOBILE_ID\DemoSignWithIText\DemoSignWithIText"/>
+    <property name="file.separator" value="\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\Bin77\AppData\Local\Temp\surefire2182060954440777753\surefirebooter-20240424094656763_3.jar"/>
+    <property name="sun.boot.class.path" value="D:\App\Java\JDK_1.8\jre\lib\resources.jar;D:\App\Java\JDK_1.8\jre\lib\rt.jar;D:\App\Java\JDK_1.8\jre\lib\sunrsasign.jar;D:\App\Java\JDK_1.8\jre\lib\jsse.jar;D:\App\Java\JDK_1.8\jre\lib\jce.jar;D:\App\Java\JDK_1.8\jre\lib\charsets.jar;D:\App\Java\JDK_1.8\jre\lib\jfr.jar;D:\App\Java\JDK_1.8\jre\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_202-b08"/>
+    <property name="user.name" value="Admin"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.endorsed.dirs" value="D:\App\Java\JDK_1.8\jre\lib\endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\Bin77\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\Bin77\AppData\Local\Temp\"/>
+    <property name="idea.version" value="2024.1"/>
+    <property name="java.version" value="1.8.0_202"/>
+    <property name="user.dir" value="D:\Data\MOBILE_ID\DemoSignWithIText\DemoSignWithIText"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="D:\App\Java\JDK_1.8\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;D:\App\Java\JDK_1.8\bin;D:\App\Git\Git\cmd;C:\Users\Bin77\AppData\Local\Microsoft\WindowsApps;D:\App\JetBrains\IntelliJ IDEA 2024.1\bin;;D:\App\Microsoft VS Code\Microsoft VS Code\bin;C:\Users\Bin77\AppData\Local\GitHubDesktop\bin;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.202-b08"/>
+    <property name="java.ext.dirs" value="D:\App\Java\JDK_1.8\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="testApp" classname="org.example.AppTest" time="0.001"/>
+</testsuite>

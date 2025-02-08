@@ -1,0 +1,70 @@
+.title {
+    color: chocolate;
+}
+
+table {
+    margin-top: 30px;
+}
+
+#toastBox {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    display: flex;
+    padding: 20px;
+    align-items: flex-end;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+._toast {
+    background: #fff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', 'sans-serif';
+    font-weight: 500;
+    margin-bottom: 20px;
+    padding: 20px 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+._toast i {
+    margin-right: 20px;
+    font-size: 35px;
+    color: #0be881;
+}
+
+._toast.error i {
+    color: #de123b;
+}
+
+._toast.invalid i {
+    color: #FFD43B;
+}
+
+._toast::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 5px;
+    background: green;
+    animation: anim 4s linear forwards;
+}
+
+._toast.error::after {
+    background: #de123b;
+}
+
+._toast.invalid::after {
+    background: #FFD43B;
+}
+
+@keyframes anim {
+    100% {
+        width: 0;
+    }
+}
